@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		791A5180214049DC00E5AF63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791A517F214049DC00E5AF63 /* AppDelegate.swift */; };
-		791A5182214049DC00E5AF63 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 791A5181214049DC00E5AF63 /* GameScene.sks */; };
-		791A5184214049DC00E5AF63 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 791A5183214049DC00E5AF63 /* Actions.sks */; };
 		791A5186214049DC00E5AF63 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791A5185214049DC00E5AF63 /* GameScene.swift */; };
 		791A5188214049DC00E5AF63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791A5187214049DC00E5AF63 /* ViewController.swift */; };
 		791A518A214049DD00E5AF63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791A5189214049DD00E5AF63 /* Assets.xcassets */; };
 		791A518D214049DD00E5AF63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791A518B214049DD00E5AF63 /* Main.storyboard */; };
+		791FCF472141977100551470 /* FloorTileset.sks in Resources */ = {isa = PBXBuildFile; fileRef = 791FCF462141977100551470 /* FloorTileset.sks */; };
+		791FCF492141A4BC00551470 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 791FCF482141A4BB00551470 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		791A517C214049DC00E5AF63 /* Super Iashu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Iashu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		791A517F214049DC00E5AF63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		791A5181214049DC00E5AF63 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		791A5183214049DC00E5AF63 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		791A5185214049DC00E5AF63 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		791A5187214049DC00E5AF63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		791A5189214049DD00E5AF63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		791A518C214049DD00E5AF63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		791A518E214049DD00E5AF63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		791A518F214049DD00E5AF63 /* Super_Iashu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Super_Iashu.entitlements; sourceTree = "<group>"; };
+		791FCF462141977100551470 /* FloorTileset.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FloorTileset.sks; sourceTree = "<group>"; };
+		791FCF482141A4BB00551470 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,15 +59,15 @@
 		791A517E214049DC00E5AF63 /* Super Iashu */ = {
 			isa = PBXGroup;
 			children = (
+				791FCF482141A4BB00551470 /* Sounds */,
 				791A517F214049DC00E5AF63 /* AppDelegate.swift */,
-				791A5181214049DC00E5AF63 /* GameScene.sks */,
-				791A5183214049DC00E5AF63 /* Actions.sks */,
 				791A5185214049DC00E5AF63 /* GameScene.swift */,
 				791A5187214049DC00E5AF63 /* ViewController.swift */,
 				791A5189214049DD00E5AF63 /* Assets.xcassets */,
 				791A518B214049DD00E5AF63 /* Main.storyboard */,
 				791A518E214049DD00E5AF63 /* Info.plist */,
 				791A518F214049DD00E5AF63 /* Super_Iashu.entitlements */,
+				791FCF462141977100551470 /* FloorTileset.sks */,
 			);
 			path = "Super Iashu";
 			sourceTree = "<group>";
@@ -130,10 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				791A5182214049DC00E5AF63 /* GameScene.sks in Resources */,
 				791A518A214049DD00E5AF63 /* Assets.xcassets in Resources */,
-				791A5184214049DC00E5AF63 /* Actions.sks in Resources */,
 				791A518D214049DD00E5AF63 /* Main.storyboard in Resources */,
+				791FCF492141A4BC00551470 /* Sounds in Resources */,
+				791FCF472141977100551470 /* FloorTileset.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
